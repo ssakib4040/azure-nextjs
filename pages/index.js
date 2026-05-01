@@ -3,6 +3,8 @@ import { projectIcons } from '../components/Icons';
 
 import { projects } from '../utils/projectsData';
 
+import Link from 'next/link';
+
 const Home = () => (
   <div className="home">
     <h1>What Can I Deploy to Static Apps?</h1>

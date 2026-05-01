@@ -18,7 +18,7 @@ function Project({ project }) {
           {projects.map((project) => {
             return (
               <li key={project.id}>
-                <a href={`/project/${project.slug}`}>{project.name}</a>
+                <Link href={`/project/${project.slug}`}>{project.name}</Link>
               </li>
             );
           })}
